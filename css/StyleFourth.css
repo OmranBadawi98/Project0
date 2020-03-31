@@ -1,0 +1,38 @@
+
+
+header {
+	background-image: url(header.jpg);
+	height: 300px;
+	
+	background-repeat: no-repeat;
+
+	
+}
+.card-deck {
+	margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.bg-light {
+    background-color: darkslategray!important;
+
+}
+footer {
+		 position: relative;
+ 		 bottom: 0;
+ 		 width: 100%;
+ 		 
+		
+}
+#hr-bottom {
+	  display: block;
+	  margin-top: 10em;
+	  margin-bottom: 0em;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-style: inset;
+	  border-width: 1px;
+}
+

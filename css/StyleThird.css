@@ -1,0 +1,149 @@
+/** {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
+  color: firebrick;
+}
+
+#img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40vh;
+  background-color: honeydew;
+}
+
+p::selection {
+  color: black;
+  background-color: gray;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  /*color: teal;*/
+  font-size: 21px;
+  margin: 30px;
+  color: Darkslategray;
+}
+
+span {
+  color: firebrick;
+}
+
+body {
+  background-color: FloralWhite;
+}
+
+a:hover {
+  color: red;
+}
+
+input {
+  background-color: lavender;
+}
+
+button:hover {
+  color: green;
+}
+
+.page-container {
+  position: relative;
+  min-height: 60vh;
+}
+.page-container .colortext {
+  color: Darkslategray;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+}
+
+#hr-center {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#hr-top {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#hr-bottom {
+  display: block;
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+article {
+  display: block;
+}
+
+h2 {
+  color: forestgreen;
+}
+
+div {
+  background-color: honeydew;
+  margin: 20px;
+}
+
+/*$primary-color: red;
+$secondary-color: blue;*/
+/*a:hover{
+	color: red;
+}
+footer {
+		 position: relative;
+ 		 bottom: 0;
+ 		 width: 100%;
+
+
+}
+#hr-bottom {
+	  display: block;
+	  margin-top: 10em;
+	  margin-bottom: 0em;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-style: inset;      
+	  border-width: 1px;
+}
+*/
+
+/*# sourceMappingURL=StyleThird.css.map */
