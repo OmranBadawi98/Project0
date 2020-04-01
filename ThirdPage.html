@@ -1,109 +1,121 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fill in form</title>
-        <link rel="stylesheet" type="text/css" href="css/StyleThird.css">
-    </head>
-    <body class="body">
-     
-        <article class="header">
-            <h2>The goal of filling in the form</h2>
-            
-            <p>To know the number of employees and all the details about them</p>
-            </article>
-          
-            <hr id="hr-top">
-    	
-        <h1 class="center">Fill in the form</h1>
-       
-        <form class="page-container">
-           
-           
-        	<table >
-        		<tr>
-	    			<td class="colortext">Full Name</td>
-	    			<td class="colortext">Email</td>
-    			</tr>
-        		<tr>
-        			<td><input type="text" name="name"></td>
-        			<td><input type="email" placeholder="test@domain.com" name="email"></td>
-        		</tr>
-        		<tr><td class="colortext">Salary</td>
-                    <td class="colortext">Age</td>
-                </tr>
-          		<tr>
-        			<td><input type="text" list="salary" name="name"></td>
-                        <datalist id="salary">
-                            <option value="50$"></option>
-                            <option value="80$"></option>
-                            <option value="100$"></option>
-                            <option value="150$"></option>
-                            <option value="180$"></option>
-                            <option value="200$"></option>
-                            <option value="230$"></option>
-                            <option value="250$"></option>
-                            <option value="280$"></option>
-                            <option value="300$"></option>
-                            <option value="350$"></option>
-                            <option value="400$"></option>
-                            <option value="450$"></option>
-                            <option value="500$"></option>
-                            <option value="530$"></option>
-                            <option value="580$"></option>
-                            <option value="600$"></option>
-                        </datalist> 
-                        <td><input type="number" name="age"></td>
-                    </tr>
-                    <tr>
-                            <td class="colortext">Center work</td>
-                            <td class="colortext">Department</td>
-                    </tr>
-                     <tr>
-                            <td><input type="text" list="centerwork" name="name">
-                                <datalist  id="centerwork">
-                                    <option value="Syria"></option>
-                                    <option value="Iraq"></option>
-                                    <option value="Dubai"></option>
-                                    <option value="USA"></option>
-                                    <option value="San Francisco"></option>
-                                    <option value="Egypt"></option>
-                                    <option value="Saudi"></option>
-                                    <option value="Lebanon"></option>
-                                    <option value="Italy"></option>
-                                    <option value="France"></option>
-                                    <option value="Canada"></option>
-                                </datalist>
-                            </td>
-                        
-                            <td><input type="text" name="department"></td>
-                    </tr>
-                    <tr>
-                            <td class="colortext">Work Time</td>
-                            <td></td>
-                    </tr>
-                    <tr>
-                            <td class="colortext"><input type="radio" name="time">Full Time
-                                <input type="radio" name="time">Part Time    
-                            </td>
-                            <td ><button  type="Submit" value="submit" class="colortext">Submit</button></td>
-                    </tr>
-                      	
-        	</table>
-           
-        </form>
-        <hr id="hr-center">
-        
-        <h2>Why the interviewer is asking this question:</h2>
-        <div class="bottom">
-        <p>The interviewer wants to know if you:</br><span> a) have done your research about their company;</br> b) can describe the company well as an informed outsider;</br>c) can translate what you know about the company into expressing interest.</span></br> The question is, in effect, a reverse sell. It may be the setup question for the interviewer selling you on the company, with the question acting as the baseline for what additional information they may need to tell you about. It is usually a good indicator that the interviewer is interested in you if they go into “sell” mode.</p></div>
-        
+
+<head>
+    <title>Fill in form</title>
+    <link rel="stylesheet" type="text/css" href="css/styleThird.css">
+</head>
+
+<body class="body">
+
+    <article class="header">
+        <h2>The goal of filling in the form</h2>
+
+        <p>To know the number of employees and all the details about them</p>
+    </article>
+
+    <hr id="hr-top">
+
+    <h1 class="center">Fill in the form</h1>
+
+    <form class="page-container">
+
+
+        <table>
+            <tr>
+                <td class="colorText">Full Name</td>
+                <td class="colorText">Email</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name"></td>
+                <td><input type="email" placeholder="test@domain.com" name="email"></td>
+            </tr>
+            <tr>
+                <td class="colorText">Salary</td>
+                <td class="colorText">Age</td>
+            </tr>
+            <tr>
+                <td><input type="text" list="salary" name="name"></td>
+                <datalist id="salary">
+                    <option value="50$"></option>
+                    <option value="80$"></option>
+                    <option value="100$"></option>
+                    <option value="150$"></option>
+                    <option value="180$"></option>
+                    <option value="200$"></option>
+                    <option value="230$"></option>
+                    <option value="250$"></option>
+                    <option value="280$"></option>
+                    <option value="300$"></option>
+                    <option value="350$"></option>
+                    <option value="400$"></option>
+                    <option value="450$"></option>
+                    <option value="500$"></option>
+                    <option value="530$"></option>
+                    <option value="580$"></option>
+                    <option value="600$"></option>
+                </datalist>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td class="colorText">Center work</td>
+                <td class="colorText">Department</td>
+            </tr>
+            <tr>
+                <td><input type="text" list="centerWork" name="name">
+                    <datalist id="centerWork">
+                        <option value="Syria"></option>
+                        <option value="Iraq"></option>
+                        <option value="Dubai"></option>
+                        <option value="USA"></option>
+                        <option value="San Francisco"></option>
+                        <option value="Egypt"></option>
+                        <option value="Saudi"></option>
+                        <option value="Lebanon"></option>
+                        <option value="Italy"></option>
+                        <option value="France"></option>
+                        <option value="Canada"></option>
+                    </datalist>
+                </td>
+
+                <td><input type="text" name="department"></td>
+            </tr>
+            <tr>
+                <td class="colorText">Work Time</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="colorText"><input type="radio" name="time">Full Time
+                    <input type="radio" name="time">Part Time
+                </td>
+                <td><button type="Submit" value="submit" class="colorText">Submit</button></td>
+            </tr>
+
+        </table>
+
+    </form>
+    <hr id="hr-center">
+
+    <h2>Why the interviewer is asking this question:</h2>
+    <div class="bottom-div">
+        <p>The interviewer wants to know if you:</br><span> a) have done your research about their company;</br> b) can
+                describe the company well as an informed outsider;</br>c) can translate what you know about the company
+                into expressing interest.</span></br> The question is, in effect, a reverse sell. It may be the setup
+            question for the interviewer selling you on the company, with the question acting as the baseline for what
+            additional information they may need to tell you about. It is usually a good indicator that the interviewer
+            is interested in you if they go into “sell” mode.</p>
+    </div>
+
+
+
+    <footer>
+
         <hr id="hr-bottom">
-        <div class="bottom"></div>
         <h4><a href="index.html">Back Home</a></h4>
-        <footer>
-              <h5>Posted by: Omran Badawi</h5>
-              <h5>Contact information: <a href="omranbadawi98@gmail.com">
-              omranbadawi98@gmail.com</a>.</h5>
-            </footer>
-    </body>
+        <h5>Posted by: Omran Badawi</h5>
+        <h5>Contact information: <a href="omranbadawi98@gmail.com">
+                omranbadawi98@gmail.com</a>.</h5>
+    </footer>
+</body>
+
 </html>

@@ -1,38 +1,23 @@
-/** {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-}
-*/
-.center {
-  display: block;
+/* Variable */
+/* ----------------------- */
+/* Standard Class */
+.main-size, body #hr-bottom, body #hr-top, body #hr-center, .center {
   margin-left: auto;
   margin-right: auto;
+  display: block;
+}
+
+.center {
   width: 30%;
   text-align: center;
   color: firebrick;
 }
 
-#img {
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.border-style, body #hr-bottom, body #hr-top, body #hr-center {
+  border-style: inset;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 40vh;
-  background-color: honeydew;
-}
-
-p::selection {
-  color: black;
-  background-color: gray;
-}
-
+/* ------------------------ */
 p {
   font-family: Arial, Helvetica, sans-serif;
   /*color: teal;*/
@@ -40,110 +25,73 @@ p {
   margin: 30px;
   color: Darkslategray;
 }
-
-span {
-  color: firebrick;
-}
-
-body {
-  background-color: FloralWhite;
-}
-
-a:hover {
-  color: red;
-}
-
-input {
-  background-color: lavender;
-}
-
-button:hover {
-  color: green;
-}
-
-.page-container {
-  position: relative;
-  min-height: 60vh;
-}
-.page-container .colortext {
-  color: Darkslategray;
-  font-weight: bold;
-}
-
-button {
-  width: 100%;
-}
-
-#hr-center {
-  display: block;
-  margin-top: 0em;
-  margin-bottom: 2.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
-#hr-top {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 3.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
-#hr-bottom {
-  display: block;
-  margin-top: 5em;
-  margin-bottom: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-article {
-  display: block;
+p p::selection {
+  color: black;
+  background-color: gray;
 }
 
 h2 {
   color: forestgreen;
 }
 
-div {
+body {
+  background-color: FloralWhite;
+}
+body .page-container {
+  position: relative;
+  min-height: 60vh;
+}
+body .page-container .header {
+  display: block;
+}
+body .page-container .colorText {
+  color: Darkslategray;
+  font-weight: bold;
+}
+body .page-container table {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40vh;
+  background-color: honeydew;
+}
+body .page-container table button {
+  width: 100%;
+}
+body .page-container table button:hover {
+  color: green;
+}
+body .page-container input {
+  background-color: lavender;
+}
+body #hr-center {
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+  border-width: 1px;
+}
+body #hr-top {
+  margin-top: 0.5em;
+  margin-bottom: 3.5em;
+  border-width: 1px;
+}
+body #hr-bottom {
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+  border-width: 1px;
+}
+body footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+body a:hover {
+  color: red;
+}
+body .bottom-div {
   background-color: honeydew;
   margin: 20px;
 }
-
-/*$primary-color: red;
-$secondary-color: blue;*/
-/*a:hover{
-	color: red;
+body .bottom-div span {
+  color: firebrick;
 }
-footer {
-		 position: relative;
- 		 bottom: 0;
- 		 width: 100%;
 
-
-}
-#hr-bottom {
-	  display: block;
-	  margin-top: 10em;
-	  margin-bottom: 0em;
-	  margin-left: auto;
-	  margin-right: auto;
-	  border-style: inset;      
-	  border-width: 1px;
-}
-*/
-
-/*# sourceMappingURL=StyleThird.css.map */
+/*# sourceMappingURL=styleThird.css.map */
