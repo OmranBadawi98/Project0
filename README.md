@@ -1,6 +1,6 @@
 # Project 0
 
-Sample website for some pages  
+Sample website with some pages  
 Web Programming with Python and JavaScript (CS50)  
 
 # TODO
@@ -21,8 +21,8 @@ Web Programming with Python and JavaScript (CS50)
 - [x] add footer the website .  
 	- [x] posted by omran badawi.  
 	- [x] link to my email.  
-- [x] Add Bootstrap using CDN link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous".   
+- [x] Add Bootstrap using CDN `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`.   
 - [x] Build card , navbar , list group and footer with Bootstrap.    
   
 # Home Page  
@@ -70,8 +70,8 @@ Web Programming with Python and JavaScript (CS50)
 	- [x] fourthPage.html  
 	- [x] styleFourth.css  
 	- [x] styleFourth.scss  
-- [x] Add Bootstrap using CDN link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous".  
+- [x] Add Bootstrap using CDN `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`.  
 - [x] Build card , image , navbar , list group and footer with Bootstrap.  
 - [x] Sass : Variable , Inheritance , Nesting .  
 	
